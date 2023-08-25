@@ -79,12 +79,17 @@
   # services.xserver.libinput.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.ev3r = {
+  users.users.ever = {
     isNormalUser = true;
-    description = "ev3r";
+    description = "ever";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
-      firefox
+      google-chrome,
+      spotify,
+      git,
+      gh,
+      vscode,
+      neovim
     #  thunderbird
     ];
   };
