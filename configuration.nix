@@ -84,11 +84,11 @@
     description = "ever";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
-      google-chrome,
-      spotify,
-      git,
-      gh,
-      vscode,
+      google-chrome
+      spotify
+      git
+      gh
+      vscode
       neovim
     #  thunderbird
     ];
