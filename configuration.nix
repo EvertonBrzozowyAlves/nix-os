@@ -90,7 +90,8 @@
       gh
       vscode
       neovim
-    #  thunderbird
+      helix
+      zellij
     ];
   };
 
